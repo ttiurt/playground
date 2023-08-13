@@ -1,10 +1,18 @@
 // css
 import styles from './Landing.module.css'
+import ThreeTest from '../../components/ThreeTest/ThreeTest'
 
-const Landing = ({ user }) => {
+
+
+const Landing = () => {
   return (
     <main className={styles.container}>
-      <h1>hello, {user ? user.name : 'friend'}</h1>
+      
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo ipsam perferendis distinctio velit reiciendis labore atque consequatur eligendi ducimus cum, consequuntur voluptatem, modi enim, exercitationem ab odit sit quis! Excepturi.</p>
+      <div className={styles.card}>
+        <ThreeTest />
+      </div>
+      <h1>GAMUT</h1>
     </main>
   )
 }
